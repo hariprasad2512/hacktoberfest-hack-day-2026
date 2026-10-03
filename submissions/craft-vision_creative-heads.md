@@ -11,7 +11,7 @@
 Select the challenge you are entering:
 
 - [ ] Best Open-Source AI Project
-- [ ] Best Use of Gemma 4
+- [x] Best Use of Gemma 4
 - [ ] Build on elah
 
 If listing multiple categories, confirm eligibility with the organizers and complete evidence for each.
@@ -25,46 +25,52 @@ If listing multiple categories, confirm eligibility with the organizers and comp
 
 Who is this for? What problem does it solve? Describe the main input → output workflow.
 
-This 
+CraftVision is for Students, families, DIY enthusiasts, and environmentally conscious people who have everyday unused or discarded objects at home and want ideas for **useful or creative ways to use them.**
+
+Discover Practical Ways to reuse and upcycle what they already have, reducing waste encouraging Creativity.
+
+📸 User takes/uploads a photo
+        ↓
+🤖 Gemma 4 analyzes the image
+        ↓
+🔍 Identifies the visible objects/materials
+        ↓
+💡 Generates possible reuse ideas
+        ↓
+♻️ Useful ideas     🎨 Creative ideas
+        ↓
+👆 User selects an idea
+        ↓
+📋 Materials + difficulty + steps
+        ↓
+🛠️ User makes it
 
 ## Approach and technologies
 
 Describe your implementation, model(s), tools, and why you chose them. Credit reused libraries, datasets, starter code, and significant AI-assisted development.
 
+CraftVision follows a Multi-modal AI + Web Application approach. 
+Technologies Used: Node.js, React.js, Express.js, Gemma 4, Gemini API, HTML/CSS, Git/Github
+
 ## Challenge evidence
-
-Complete the relevant section(s) and remove those that do not apply.
-
-### Best Open-Source AI Project
-
-- Open-source/open-weight AI component and its role:
-- Code link showing the integration:
-- Agent Skill Open Standard compliance (if applicable):
-- Original harness implementation or meaningful changes (if applicable):
 
 ### Best Use of Gemma 4
 
-- Gemma 4 model identifier and Gemini API integration:
-- Code link showing the integration:
-- Input and useful output; multimodal value where applicable:
-
-### Build on elah
-
-- Editing workflow / idea direction and elah version:
-- Model/runtime and structured-edit implementation:
-- Validation/correction metrics, caption/frame checks, or keep/discard/replay evidence for your option.
+- Gemma 4 model identifier and Gemini API integration: gemma-4-26b-a4b-it
+- Code link showing the integration: https://github.com/hariprasad2512/craft-vision
+- Input and useful output; multimodal value where applicable: Image input containing multiple things. We get an Output of Different DIY ideas based on the input images.
 
 ## Current status
 
-- What works:
-- Known limitations / incomplete features:
-- What you would improve next:
+- What works: Different List of Possible Creative/Useful Ideas for the Input Image Things.
+- Known limitations / incomplete features: Takes up a lot of time for Gemma to load.
+- What you would improve next: Could add Upload Pic of the User's handmade Craft.
 
 ## Submission checklist
 
-- [ ] Project repository is public and links work.
+- [x] Project repository is public and links work.
 - [ ] Required challenge evidence is included.
-- [ ] Project uses an open-source license where required by the challenge.
-- [ ] Work and reused materials are represented honestly.
-- [ ] No API keys, tokens, passwords, or private data are included.
-- [ ] I followed the organizers' build window and submission instructions.
+- [x] Project uses an open-source license where required by the challenge.
+- [x] Work and reused materials are represented honestly.
+- [x] No API keys, tokens, passwords, or private data are included.
+- [x] I followed the organizers' build window and submission instructions.
