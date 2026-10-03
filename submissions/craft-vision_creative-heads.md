@@ -30,19 +30,19 @@ CraftVision is for Students, families, DIY enthusiasts, and environmentally cons
 Discover Practical Ways to reuse and upcycle what they already have, reducing waste encouraging Creativity.
 
 📸 User takes/uploads a photo
-        ↓
+        ->
 🤖 Gemma 4 analyzes the image
-        ↓
+        ->
 🔍 Identifies the visible objects/materials
-        ↓
+        ->
 💡 Generates possible reuse ideas
-        ↓
+        ->
 ♻️ Useful ideas     🎨 Creative ideas
-        ↓
+        ->
 👆 User selects an idea
-        ↓
+        ->
 📋 Materials + difficulty + steps
-        ↓
+        ->
 🛠️ User makes it
 
 ## Approach and technologies
@@ -69,7 +69,7 @@ Technologies Used: Node.js, React.js, Express.js, Gemma 4, Gemini API, HTML/CSS,
 ## Submission checklist
 
 - [x] Project repository is public and links work.
-- [ ] Required challenge evidence is included.
+- [x] Required challenge evidence is included.
 - [x] Project uses an open-source license where required by the challenge.
 - [x] Work and reused materials are represented honestly.
 - [x] No API keys, tokens, passwords, or private data are included.
