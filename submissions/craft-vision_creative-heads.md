@@ -1,6 +1,6 @@
-# Project Name
+# CraftVision
 
-## Team / attendee
+## Team Creative Heads
 
 - Team name (if applicable): Creative Heads
 - Members and GitHub usernames: Hariprasad Anuganti(hariprasad2512), Syed Mohammed Altamash(syedmohammedaltamash)
